@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask 
 from flask import jsonify
 from googleapiclient.discovery import build
 import os
@@ -32,6 +32,6 @@ def get_youtube_videos(term):
 
 @app.route('/test')
 def test():
-  return jsonify(name='ryan', eyes='brown)'
+  return jsonify(name='ryan', eyes='brown')
 
 
